@@ -7,11 +7,13 @@
 # status = draft
 # Credits:
 #https://stackoverflow.com/questions/12807079/how-to-determined-if-a-2-dimensional-list-contain-a-value
+#https://trinket.io/sense-hat
 
             
 # ------------------------------------------------------------------------
 # Description
 # SenseSnake - an 8x8 version of the game snake
+# Go to https://trinket.io/sense-hat , delete the already exisiting code and replace it with this
 
 import sense_hat
 from time import sleep, time
@@ -41,7 +43,7 @@ t = (211, 141, 80)  #Tan          (intro)
 o = (255, 100, 0)   #Orange       (menu)
 p = (255, 0, 255)   #Purple       (menu)
 y = (255, 255, 0)   #Yellow       (menu)
-G = (100, 84, 0)  #Gold         (win)
+G = (100, 84, 0)    #Gold         (win)
 
 
 #-----Sense hat directions/actions
@@ -656,4 +658,3 @@ while True:
   spawn = 0
   dead = 0
   start = 0
-  
